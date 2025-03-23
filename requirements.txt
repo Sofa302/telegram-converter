@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+python-dotenv
+requests
+Flask
+gunicorn
+waitress
