@@ -28,7 +28,7 @@ def get_message():
 @app.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://tele-check.onrender.com/' + TOKEN)  # Replace with your Render app name!
+    bot.set_webhook(url='https://telegram-converter-1xfh.onrender.com' + TOKEN)  # Replace with your Render app name!
     return "Webhook set!", 200
 
 @bot.message_handler(commands=['start'])
